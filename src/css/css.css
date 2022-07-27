@@ -1,0 +1,27 @@
+
+.styleA {
+    height: 65px;
+    margin-top: -1px;
+    padding: 0 30px;
+}
+
+.styleB {
+    height: 410px;
+}
+
+.styleC {
+    max-width: 700px;
+}
+
+.styleD {
+    width: 45px;
+    height: 45px;
+}
+
+.styleE {
+    padding: 30px;
+}
+
+.styleF {
+    z-index: 1;
+}
