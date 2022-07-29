@@ -15,12 +15,12 @@ import img6 from './img/payments.png';
 
 export const AnimeShop = () => {
 
-    console.log( 'Pagina creada' );
+    console.log( 'Pantalla Inicio' );
 
   return (
     <>
 
-      <div className="container-fluid">
+        <div className="container-fluid">
         <div className="row bg-secondary py-2 px-xl-5">
             <div className="col-lg-6 d-none d-lg-block">
                 <div className="d-inline-flex align-items-center">
@@ -80,9 +80,9 @@ export const AnimeShop = () => {
                 </a>
             </div>
         </div>
-      </div>
+        </div>
 
-      <div className="container-fluid mb-5">
+        <div className="container-fluid mb-5">
         <div className="row border-top px-xl-5">
             <div className="col-lg-3 d-none d-lg-block">
                 <a className="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100 styleA" data-toggle="collapse" href="#navbar-vertical">
@@ -176,9 +176,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid pt-5">
+        <div className="container-fluid pt-5">
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center border mb-4 styleE">
@@ -205,9 +205,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid pt-5">
+        <div className="container-fluid pt-5">
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-4 col-md-6 pb-1">
                 <div className="cat-item d-flex flex-column border mb-4 styleE">
@@ -264,9 +264,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid offer pt-5">
+        <div className="container-fluid offer pt-5">
         <div className="row px-xl-5">
             <div className="col-md-6 pb-4">
                 <div className="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
@@ -289,9 +289,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid pt-5">
+        <div className="container-fluid pt-5">
         <div className="text-center mb-4">
             <h2 className="section-title px-5"><span className="px-2">Trandy Products</span></h2>
         </div>
@@ -433,9 +433,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid bg-secondary my-5">
+        <div className="container-fluid bg-secondary my-5">
         <div className="row justify-content-md-center py-5 px-xl-5">
             <div className="col-md-6 col-12 py-5">
                 <div className="text-center mb-2 pb-2">
@@ -452,9 +452,9 @@ export const AnimeShop = () => {
                 </form>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid pt-5">
+        <div className="container-fluid pt-5">
         <div className="text-center mb-4">
             <h2 className="section-title px-5"><span className="px-2">Just Arrived</span></h2>
         </div>
@@ -596,9 +596,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid py-5">
+        <div className="container-fluid py-5">
         <div className="row px-xl-5">
             <div className="col">
                 <div className="owl-carousel vendor-carousel">
@@ -629,9 +629,9 @@ export const AnimeShop = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
 
-    <div className="container-fluid bg-secondary text-dark mt-5 pt-5">
+        <div className="container-fluid bg-secondary text-dark mt-5 pt-5">
         <div className="row px-xl-5 pt-5">
             <div className="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <a href="" className="text-decoration-none">
@@ -697,9 +697,9 @@ export const AnimeShop = () => {
                 <img className="img-fluid" src={ img6 } alt="" />
             </div>
         </div>
-    </div>
+        </div>
 
-    <a href="#" className="btn btn-primary back-to-top"><i className="fa fa-angle-double-up"></i></a>
+        <a href="#" className="btn btn-primary back-to-top"><i className="fa fa-angle-double-up"></i></a>
 
     </>
   );
