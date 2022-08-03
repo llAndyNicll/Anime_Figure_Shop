@@ -7,9 +7,18 @@ import { Contact } from '../components/Contact';
 import { ProductFullScreen } from '../components/ProductFullScreen';
 import { Shop } from '../components/Shop';
 import { Footer } from '../footer/Footer';
+import { useFetchProducts } from '../hooks/useFetchProducts';
 import { Navbar } from '../navbar/Navbar';
 
 export const AppRouter = () => {
+
+  const { data, loading } = useFetchProducts();
+
+  if( loading ) {
+
+    return <div>Cargando...</div>;
+
+  };
 
   return (
     <BrowserRouter>

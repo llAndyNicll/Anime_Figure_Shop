@@ -1,0 +1,29 @@
+
+*_Path para toda la categoria COMPUTACION:
+
+    https://api.mercadolibre.com/sites/MLC/search?category=MLC1648
+
+
+*_Path para ver todas las sub categorias de COMPUTACION:
+
+    https://api.mercadolibre.com/categories/MLC1648
+
+
+*_Path para traer todos los productos de las sub categorias:
+
+    https://api.mercadolibre.com/sites/MLC/search?category=MLC{ id }
+
+
+*_Path para buscar productos en la api: 
+
+    https://api.mercadolibre.com/sites/MLC/search?q={ busqueda }
+    
+    
+*_Path para los mas vendido de la categoria COMPUTACION:
+
+    https://api.mercadolibre.com/highlights/MLC/category/MLC1648
+    
+    
+*_Enlace de la documentacion:
+
+    https://developers.mercadolibre.com.ar/es_ar/categorias-y-atributos
