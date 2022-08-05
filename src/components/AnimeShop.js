@@ -11,8 +11,11 @@ import img54 from '../img/vendor-6.jpg';
 import img55 from '../img/vendor-7.jpg';
 import img56 from '../img/vendor-8.jpg';
 import { Outlet } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 export const AnimeShop = () => {
+
+    const abrigos = useSelector( state => state.productos );
 
   return (
     <>
@@ -22,25 +25,25 @@ export const AnimeShop = () => {
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center border mb-4 styleE">
                     <h1 className="fa fa-check text-primary m-0 mr-3"></h1>
-                    <h5 className="font-weight-semi-bold m-0">Quality Product</h5>
+                    <h5 className="font-weight-semi-bold m-0">100% Calidad</h5>
                 </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center border mb-4 styleE">
                     <h1 className="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
-                    <h5 className="font-weight-semi-bold m-0">Free Shipping</h5>
+                    <h5 className="font-weight-semi-bold m-0">Envío Gratis</h5>
                 </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center border mb-4 styleE">
                     <h1 className="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
-                    <h5 className="font-weight-semi-bold m-0">14-Day Return</h5>
+                    <h5 className="font-weight-semi-bold m-0">Retorno Gratis</h5>
                 </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div className="d-flex align-items-center border mb-4 styleE">
                     <h1 className="fa fa-phone-volume text-primary m-0 mr-3"></h1>
-                    <h5 className="font-weight-semi-bold m-0">24/7 Support</h5>
+                    <h5 className="font-weight-semi-bold m-0">Atencion 24/7</h5>
                 </div>
             </div>
         </div>
@@ -50,11 +53,11 @@ export const AnimeShop = () => {
         <div className="row px-xl-5 pb-3">
             <div className="col-lg-4 col-md-6 pb-1">
                 <div className="cat-item d-flex flex-column border mb-4 styleE">
-                    <p className="text-right">15 Products</p>
+                    <p className="text-right">{ abrigos.length } Productos</p>
                     <a href="" className="cat-img position-relative overflow-hidden mb-3">
-                        <img className="img-fluid" src={ img2 } alt="" />
+                        <img className="img-fluid" src={ `https://http2.mlstatic.com/D_NQ_NP_${ abrigos[0].thumbnail_id }-O.webp` } alt="" />
                     </a>
-                    <h5 className="font-weight-semi-bold m-0">Men's dresses</h5>
+                    <h5 className="font-weight-semi-bold m-0">Abrigos</h5>
                 </div>
             </div>
             <div className="col-lg-4 col-md-6 pb-1">

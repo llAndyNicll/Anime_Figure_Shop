@@ -1,7 +1,7 @@
 
 export const getProductos = async() => {
 
-    const url = 'https://api.mercadolibre.com/sites/MLC/search?category=MLC1648';
+    const url = 'https://api.mercadolibre.com/sites/MLC/search?category=MLC455528';
     
     const resp = await fetch( url );
 

@@ -1,12 +1,12 @@
 
 *_Path para toda la categoria COMPUTACION:
 
-    https://api.mercadolibre.com/sites/MLC/search?category=MLC1648
+    https://api.mercadolibre.com/sites/MLC/search?category=MLC1430
 
 
 *_Path para ver todas las sub categorias de COMPUTACION:
 
-    https://api.mercadolibre.com/categories/MLC1648
+    https://api.mercadolibre.com/categories/MLC1430
 
 
 *_Path para traer todos los productos de las sub categorias:

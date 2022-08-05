@@ -27,11 +27,11 @@ export const Navbar = () => {
             <div className="row bg-secondary py-2 px-xl-5">
                 <div className="col-lg-6 d-none d-lg-block">
                     <div className="d-inline-flex align-items-center">
-                        <a className="text-dark" href="">FAQs</a>
+                        <a className="text-dark" href="">Preguntas</a>
                         <span className="text-muted px-2">|</span>
-                        <a className="text-dark" href="">Help</a>
+                        <a className="text-dark" href="">Ayuda</a>
                         <span className="text-muted px-2">|</span>
-                        <a className="text-dark" href="">Support</a>
+                        <a className="text-dark" href="">Soporte</a>
                     </div>
                 </div>
                 <div className="col-lg-6 text-center text-lg-right">
@@ -63,7 +63,7 @@ export const Navbar = () => {
                 <div className="col-lg-6 col-6 text-left">
                     <form action="">
                         <div className="input-group">
-                            <input type="text" className="form-control" placeholder="Search for products" />
+                            <input type="text" className="form-control" placeholder="Buscar Producto" />
                             <div className="input-group-append">
                                 <span className="input-group-text bg-transparent text-primary">
                                     <i className="fa fa-search"></i>
@@ -91,56 +91,42 @@ export const Navbar = () => {
                     locationActive ? (
                         <div className="col-lg-3 d-none d-lg-block">
                             <a className="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100 styleA" data-toggle="collapse" href="#navbar-vertical">
-                                <h6 className="m-0">Categories</h6>
+                                <h6 className="m-0">Categorias</h6>
                                 <i className="fa fa-angle-down text-dark"></i>
                             </a>
                             <nav className="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
                                 <div className="navbar-nav w-100 overflow-hidden styleB">
-                                    <div className="nav-item dropdown">
-                                        <a href="#" className="nav-link" data-toggle="dropdown">Dresses <i className="fa fa-angle-down float-right mt-1"></i></a>
-                                        <div className="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-                                            <a href="" className="dropdown-item">Men's Dresses</a>
-                                            <a href="" className="dropdown-item">Women's Dresses</a>
-                                            <a href="" className="dropdown-item">Baby's Dresses</a>
-                                        </div>
-                                    </div>
-                                    <a href="" className="nav-item nav-link">Shirts</a>
-                                    <a href="" className="nav-item nav-link">Jeans</a>
-                                    <a href="" className="nav-item nav-link">Swimwear</a>
-                                    <a href="" className="nav-item nav-link">Sleepwear</a>
-                                    <a href="" className="nav-item nav-link">Sportswear</a>
-                                    <a href="" className="nav-item nav-link">Jumpsuits</a>
-                                    <a href="" className="nav-item nav-link">Blazers</a>
-                                    <a href="" className="nav-item nav-link">Jackets</a>
-                                    <a href="" className="nav-item nav-link">Shoes</a>
+                                    <a href="" className="nav-item nav-link">Abrigos</a>
+                                    <a href="" className="nav-item nav-link">Bermudas y Shorts</a>
+                                    <a href="" className="nav-item nav-link">Blusas</a>
+                                    <a href="" className="nav-item nav-link">Calzas</a>
+                                    <a href="" className="nav-item nav-link">Camisas</a>
+                                    <a href="" className="nav-item nav-link">Faldas</a>
+                                    <a href="" className="nav-item nav-link">Pantalones</a>
+                                    <a href="" className="nav-item nav-link">Poleras</a>
+                                    <a href="" className="nav-item nav-link">Ropa Deportiva</a>
+                                    <a href="" className="nav-item nav-link">Vestidos</a>
                                 </div>
                             </nav>
                         </div>  
                     ) : (                 
                             <div className="col-lg-3 d-none d-lg-block">
                                 <a className="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100 styleA" data-toggle="collapse" href="#navbar-vertical">
-                                    <h6 className="m-0">Categories</h6>
+                                    <h6 className="m-0">Categorias</h6>
                                     <i className="fa fa-angle-down text-dark"></i>
                                 </a>
                                 <nav className="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light styleG" id="navbar-vertical">
                                     <div className="navbar-nav w-100 overflow-hidden styleB">
-                                        <div className="nav-item dropdown">
-                                            <a href="#" className="nav-link" data-toggle="dropdown">Dresses <i className="fa fa-angle-down float-right mt-1"></i></a>
-                                            <div className="dropdown-menu position-absolute bg-secondary border-0 rounded-0 w-100 m-0">
-                                                <a href="" className="dropdown-item">Men's Dresses</a>
-                                                <a href="" className="dropdown-item">Women's Dresses</a>
-                                                <a href="" className="dropdown-item">Baby's Dresses</a>
-                                            </div>
-                                        </div>
-                                        <a href="" className="nav-item nav-link">Shirts</a>
-                                        <a href="" className="nav-item nav-link">Jeans</a>
-                                        <a href="" className="nav-item nav-link">Swimwear</a>
-                                        <a href="" className="nav-item nav-link">Sleepwear</a>
-                                        <a href="" className="nav-item nav-link">Sportswear</a>
-                                        <a href="" className="nav-item nav-link">Jumpsuits</a>
-                                        <a href="" className="nav-item nav-link">Blazers</a>
-                                        <a href="" className="nav-item nav-link">Jackets</a>
-                                        <a href="" className="nav-item nav-link">Shoes</a>
+                                        <a href="" className="nav-item nav-link">Abrigos</a>
+                                        <a href="" className="nav-item nav-link">Bermudas y Shorts</a>
+                                        <a href="" className="nav-item nav-link">Blusas</a>
+                                        <a href="" className="nav-item nav-link">Calzas</a>
+                                        <a href="" className="nav-item nav-link">Camisas</a>
+                                        <a href="" className="nav-item nav-link">Faldas</a>
+                                        <a href="" className="nav-item nav-link">Pantalones</a>
+                                        <a href="" className="nav-item nav-link">Poleras</a>
+                                        <a href="" className="nav-item nav-link">Ropa Deportiva</a>
+                                        <a href="" className="nav-item nav-link">Vestidos</a>
                                     </div>
                                 </nav>
                             </div> 
@@ -156,17 +142,19 @@ export const Navbar = () => {
                         </button>
                         <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div className="navbar-nav mr-auto py-0">
-                                <NavLink to="/" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Home</NavLink>
-                                <NavLink to="comprar" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Shop</NavLink>
+                                <NavLink to="/" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Inicio</NavLink>
+                                <NavLink to="comprar" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Productos</NavLink>
                                 <NavLink to="producto" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Shop Detail</NavLink>
                                 <div className="nav-item dropdown">
-                                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Paginas</a>
                                     <div className="dropdown-menu rounded-0 m-0">
-                                        <NavLink to="carrito" className={ ({ isActive }) => "dropdown-item " + ( isActive ? "active" : "" ) }>Shopping Cart</NavLink>
+                                        <NavLink to="carrito" className={ ({ isActive }) => "dropdown-item " + ( isActive ? "active" : "" ) }>Carrito</NavLink>
+                                        <NavLink to="checkout" className={ ({ isActive }) => "dropdown-item " + ( isActive ? "active" : "" ) }>Deseos</NavLink>
                                         <NavLink to="checkout" className={ ({ isActive }) => "dropdown-item " + ( isActive ? "active" : "" ) }>Checkout</NavLink>
                                     </div>
                                 </div>
-                                <NavLink to="contacto" className="nav-item nav-link">Contact</NavLink>
+                                <NavLink to="contacto" className="nav-item nav-link">Contacto</NavLink>
+                                <NavLink to="contacto" className="nav-item nav-link">Nosotros</NavLink>
                             </div>
                             <div className="navbar-nav ml-auto py-0">
                                 <NavLink to="login" className={ ({ isActive }) => "nav-item nav-link " + ( isActive ? "active" : "" ) }>Login</NavLink>
@@ -182,19 +170,28 @@ export const Navbar = () => {
                                     <img className="img-fluid" src={ img1 } alt="Image" />
                                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                         <div className="p-3 styleC" >
-                                            <h4 className="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                                            <h3 className="display-4 text-white font-weight-semi-bold mb-4">Fashionable Dress</h3>
-                                            <a href="" className="btn btn-light py-2 px-3">Shop Now</a>
+                                            <h3 className="display-4 text-white font-weight-semi-bold mb-4">Bienvenido</h3>
+                                            <a href="" className="btn btn-light py-2 px-3">Comprar Ahora</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item styleB">
-                                    <img className="img-fluid" src={ img1 } alt="Image" />
+                                    <img className="img-fluid" src='https://c4.wallpaperflare.com/wallpaper/345/871/576/model-beauty-fashion-marina-wallpaper-preview.jpg' alt="Image" />
                                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                         <div className="p-3 styleC">
-                                            <h4 className="text-light text-uppercase font-weight-medium mb-3">10% Off Your First Order</h4>
-                                            <h3 className="display-4 text-white font-weight-semi-bold mb-4">Reasonable Price</h3>
-                                            <a href="" className="btn btn-light py-2 px-3">Shop Now</a>
+                                            <h4 className="text-light text-uppercase font-weight-medium mb-3">10% De descuento en su primer pedido</h4>
+                                            <h3 className="display-4 text-white font-weight-semi-bold mb-4">Vistete A la Moda</h3>
+                                            <a href="" className="btn btn-light py-2 px-3">Comprar Ahora</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="carousel-item styleB">
+                                    <img className="img-fluid" src='https://www.ocu.org/-/media/ocu/images/home/consumo%20y%20familia/consumo%20colaborativo/ropa-usada/gestion-ropa-usada.jpg?rev=8248fa9c-d022-4067-b86b-fb902f3e03fa&hash=AA889082F2CBA4DA7F85831CE88359FF' alt="Image" />
+                                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                                        <div className="p-3 styleC">
+                                            <h4 className="text-light text-uppercase font-weight-medium mb-3">15% De descuento en su segundo pedido</h4>
+                                            <h3 className="display-4 text-white font-weight-semi-bold mb-4">Precios Razonables</h3>
+                                            <a href="" className="btn btn-light py-2 px-3">Comprar Ahora</a>
                                         </div>
                                     </div>
                                 </div>
